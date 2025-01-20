@@ -11,6 +11,7 @@ Hi, I am a software engineer passionate about discovering insights and building 
 ### Software Engineer @ Nomura Securities International, Inc
 <li> Designed and implemented regulatory controls aligned with business requirements. </li>
 <li> Modernized the tech stack of the existing trade validation system, incorporating Apache Pulsar to enhance post-trade processing efficiency. </li> 
+<br/>
 
 ### Research Assistant @ University of Arizona
 <li> Developed and integrated transformer models into the FastAPI backend and improved the metadata quality of 78% of the scholarly documents. This work has been published <a href = "https://aclanthology.org/2024.sdp-1.14/"> here - Metadata Enhancement Using Large Language Models</a>. </li>
