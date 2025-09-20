@@ -5,11 +5,11 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/src/index.js',
   watch: true,
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'js/bundle.js'
+    path: path.resolve(__dirname, '.'),
+    filename: './src/js/bundle.js'
   },
   module: {
     rules: [{
@@ -39,7 +39,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'css/[name].bundle.css'
+      filename: './src/css/[name].bundle.css'
     }),
   ]
 };
